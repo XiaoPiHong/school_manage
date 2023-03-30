@@ -1,0 +1,17 @@
+{
+  "db_config": {
+    "protocol": "mysql",
+    "host": "127.0.0.1",
+    "database": "promoter",
+    "user": "root",
+    "password": "",
+    "port": 3306
+  },
+  "jwt_config": {
+    "secretKey": "promoter",
+    "expiresIn": 86400
+  },
+  "upload_config":{
+		"baseURL":"http://127.0.0.1:5000"
+	}
+}
